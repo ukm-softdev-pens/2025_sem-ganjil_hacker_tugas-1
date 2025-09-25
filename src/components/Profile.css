@@ -1,0 +1,29 @@
+.profile-card {
+  background-color: rgba(190, 252, 238, 0.8);
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-picture img {
+  border-radius: 50%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-content > .title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+.table-desc td:nth-child(even) {
+  padding-inline: 4px;
+}
