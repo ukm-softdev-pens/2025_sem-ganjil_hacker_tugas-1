@@ -5,6 +5,7 @@ import './App.css'
 
 import { Route, Routes, Link } from 'react-router-dom';
 import HelloWorld from "./HelloWorld";
+import Counter from "./counter";
 
 
 function App() {
@@ -29,9 +30,22 @@ function App() {
                 <Link to="/hello" style={{ color: "blue", textDecoration: "underline" }}>
                   FYN
                 </Link>
+                <br/>
+                
               </div>              
             } />
           <Route path="/hello" element={<HelloWorld />} />
+        </Routes>
+        <Routes>
+          <Route path="/"
+          element = {
+            <div>
+              <Link to="/counter" style={{ color: "red", textDecoration: "underline" }}>
+              Counter
+              </Link>
+            </div>
+          } />
+            <Route path="/counter" element={<Counter/>}/>
         </Routes>
       </div>
       
