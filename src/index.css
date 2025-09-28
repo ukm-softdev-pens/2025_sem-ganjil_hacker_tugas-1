@@ -1,0 +1,155 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #00122d;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page {
+  display: flex; 
+  align-items: flex-start; 
+  gap: 20px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: rgb(255, 255, 255);
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.counter-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: rgb(255, 255, 255);
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  width: 320px;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  width: 320px;
+}
+
+.item-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12.5px;
+  width: 123.35px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.remove-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #4f44ef;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.remove-all-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.count-display {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.increment {
+  background-color: #2563eb;
+  color: white;
+  margin-right: 10px;
+}
+
+.decrement {
+  background-color: #dc2626;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.reset {
+  background-color: #4b5563;
+  color: white;
+  margin-left: 10px;
+  width: 125px;
+}
+
+.ccontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2em;
+}
