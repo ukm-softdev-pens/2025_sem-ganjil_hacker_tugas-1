@@ -14,10 +14,10 @@ function CounterInterface({ num, modifier }) {
             <div className="w-full h-1/2 flex justify-center items-center gap-2">
               <div className="w-full h-full flex justify-center items-center">
                 <button
-                  onClick={() => modifier(num - 1)}
+                  onClick={() => modifier(0)}
                   className="outline-2 outline-black"
                 >
-                  Kurang
+                  Reset
                 </button>
               </div>
               <div className="w-full h-full flex justify-center items-center">
