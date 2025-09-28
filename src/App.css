@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+.border-rounded {
+  border-radius: 9999px;
+}
+
+.border-srounded {
+  border-radius: 25px;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.border-thin {
+  border-width: 2px;
+}
+
+.background-gray {
+  background-color: #879ac0;
+}
+
+.padding-narrow {
+  padding: 10px;
+}
+
+.margin-narrow {
+  margin: 10px;
+}
