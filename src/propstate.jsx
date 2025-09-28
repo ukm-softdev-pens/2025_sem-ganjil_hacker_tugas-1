@@ -8,7 +8,8 @@ function Counter() {
             <div className="button-group">
                 <div className="counting-btn">
                     <button className="btn increment" onClick={() => setCount(count + 1)}>( + )</button>
-                    <button className="btn decrement" onClick={() => setCount(count - 1)}>( - )</button>                        <button className="btn reset" onClick={() => setCount(0)}>Reset</button>
+                    <button className="btn decrement" onClick={() => setCount(count - 1)}>( - )</button>                        
+                    <button className="btn reset" onClick={() => setCount(0)}>Reset</button>
                 </div>
             </div>
         </div>
