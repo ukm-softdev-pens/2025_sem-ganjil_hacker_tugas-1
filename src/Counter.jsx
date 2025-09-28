@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
-function Counter({ num, modifier }) {
+function CounterInterface({ num, modifier }) {
   return (
     <>
       <div className="h-screen w-screen flex justify-center items-center">
@@ -36,9 +36,9 @@ function Counter({ num, modifier }) {
   );
 }
 
-function CounterInterface() {
+function Counter() {
   const [count, setCount] = useState(0);
 
-  return <Counter num={count} modifier={setCount} />;
+  return <CounterInterface num={count} modifier={setCount} />;
 }
-export default CounterInterface;
+export default Counter;
