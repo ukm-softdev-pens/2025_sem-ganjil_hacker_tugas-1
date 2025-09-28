@@ -26,7 +26,7 @@ export default function ProfileCard() {
                 jobs= "uma"
                 image="/src/assets/tachyon.jpeg" />
             <Profile
-                name= "Bahlil Anjeng"
+                name= "Bahlul"
                 asal= "Neraka"
                 jobs= "monyet KBS"
                 image="/src/assets/bahlil.jpeg" />
