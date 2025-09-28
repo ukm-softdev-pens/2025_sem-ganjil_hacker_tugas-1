@@ -3,7 +3,6 @@ import { Component } from 'react';
 import './App.css'
 
 class Profile extends Component {
-    
     render() {
         return (
             <div className="border-srounded border-thin border-white background-gray padding-narrow margin-narrow" margin={ "10px" }>
@@ -19,17 +18,21 @@ class Profile extends Component {
 
 export default function ProfileCard() {
     return (
-        <div className="card">
-            <Profile 
-                name= "Agnes Tachyon"
-                asal= "Tracen Academy"
-                jobs= "uma"
-                image="/src/assets/tachyon.jpeg" />
-            <Profile
-                name= "Bahlul"
-                asal= "Neraka"
-                jobs= "monyet KBS"
-                image="/src/assets/bahlil.jpeg" />
+        <div className="card flex">
+            <div>
+                <Profile 
+                    name= "Agnes Tachyon"
+                    asal= "Tracen Academy"
+                    jobs= "uma"
+                    image="/src/assets/tachyon.jpeg" />
+            </div>
+            <div>
+                <Profile
+                    name= "Bahlul"
+                    asal= "Neraka"
+                    jobs= "monyet KBS"
+                    image="/src/assets/bahlil.jpeg" />
+            </div>            
         </div>
     );
 }

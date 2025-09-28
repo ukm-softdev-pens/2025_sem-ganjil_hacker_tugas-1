@@ -68,3 +68,10 @@
 .margin-narrow {
   margin: 10px;
 }
+
+.flex {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
